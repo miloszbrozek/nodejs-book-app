@@ -1,4 +1,4 @@
-# vue-book-app
+# nodejs REST API
 
 ## Project setup
 ```
