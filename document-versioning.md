@@ -10,13 +10,13 @@ Strive for disk space efficiency.
 
 A: Disk and read efficiency are somewhat contradictory here. So I would create a solution somewhere in the middle. I would create 2 collections: current_versions and prev_versions.
 
-current_versions:
+**current_versions**:
 - document_id (identifies a document)
 - version_num (incremental version number)
 - content (full document content)
 - created_at (timestamp of creation)
 
-prev_versions:
+**prev_versions**:
 - document_id
 - version_num
 - content (full document content - this field would be filled only in some cases)
